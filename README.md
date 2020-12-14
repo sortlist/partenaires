@@ -1,0 +1,2 @@
+# partners
+Documentations for partners
