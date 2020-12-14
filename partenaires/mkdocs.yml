@@ -1,0 +1,96 @@
+site_name: 'Partenaires'
+site_author: '@sortlist'
+site_description: >-
+  Programme d'affiliation
+
+# Repository
+# repo_name: 'sortlist/partners'
+# repo_url: 'https://github.com/sortlist/infrastructure'
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Sortlist'
+
+# docs_dir: docs
+# site_dir: build/docs
+# edit_uri: https://github.com/sortlist/infrastructure/edit/master/docs/
+
+nav:
+  - Introduction: index.md
+  # - Terragrunt: terragrunt.md
+  # - Docker: docker.md
+  # - Auth0: auth0/index.md
+  # - AWS:
+  #   - Network: aws/network.md
+  #   - SSO: aws/sso.md
+  #   - ECR: aws/ecr.md
+  #   - EKS: aws/eks.md
+  #   - Cognito: aws/cognito-service-auth.md
+
+# Documentation and theme
+theme:
+  name: material
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  language: fr
+  features:
+    - tabs
+  palette:
+    primary: blue
+    accent: orange
+  font:
+    text: IBM Plex Sans
+    code: SFMono-Regular,Consolas,Menlo,monospace
+
+# Plugins
+plugins:
+  - search
+
+extra_javascript:
+  - _assets/js/mermaid-8.5.0.min.js
+extra_css:
+  - _assets/css/mermaid.css
+  - _assets/css/code.css
+  - _assets/css/global.css
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/sortlist/infrastructure'
+
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
