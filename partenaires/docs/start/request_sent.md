@@ -7,8 +7,8 @@ Vous nous avez envoyé une demande ? Super on vous reviendra dans les 48 heures 
 
 Nous vous conseillons de déjà jeter un oeil à nos options pour insérer un de nos Call-to-actions:
 
-* [Nos bannières](/cta/banners)
-* [Nos widget](/cta/widget)
+* [Nos bannières](https://sortlist.github.io/partners/cta/banners)
+* [Nos widget](https://sortlist.github.io/partners/cta/widget)
 
 ## Pas de contenu pertinent ? On vous aide à en créer
 
