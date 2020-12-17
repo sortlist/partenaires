@@ -8,6 +8,10 @@ Vous trouverez ici la documentation technique pour lancer et faire un succès de
 * `Nos call-to-actions` - Les contenus cliquables que vous pourrez intégrer à votre site.
 * `Service de création de contenu` - Comment obtenir du contenu unique sur votre niche.
 
+## Comment commencer ?
+
+Avant toute chose, veuillez nous [soumettre une demande de partenariat](https://sortlist1.typeform.com/to/AH6Orh8N).
+
 ## Des questions?
 
-Contactez **Olivier Daniaux**, notre responsable partenariats France au +33 00 00 00 00
+Contactez **Olivier Danniau**, notre responsable partenariats France au [+33 (0) 7 56 93 64 56](tel:+33756936456)

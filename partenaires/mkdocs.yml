@@ -1,4 +1,4 @@
-site_name: 'Partenaires'
+site_name: 'Documentation Programmes Partenariats'
 site_author: '@sortlist'
 site_description: >-
   Programme d'affiliation
@@ -16,6 +16,13 @@ copyright: 'Copyright &copy; 2020 Sortlist'
 
 nav:
   - Introduction: index.md
+  - Mise en route:
+    - Demande effectuée: start/request_sent.md
+  - Call-to-actions:
+    - Bannières: cta/banners.md
+    - Widget: cta/widget.md
+  - Création de contenu: content_creation.md
+
   # - Terragrunt: terragrunt.md
   # - Docker: docker.md
   # - Auth0: auth0/index.md
@@ -29,6 +36,8 @@ nav:
 # Documentation and theme
 theme:
   name: material
+  favicon: sortlist-favicon.png
+  logo: sortlist-logo-border-white.png
 
   # Don't include MkDocs' JavaScript
   include_search_page: false
@@ -36,9 +45,9 @@ theme:
   language: fr
   features:
     - tabs
-  palette:
-    primary: blue
-    accent: orange
+  # palette:
+  #   primary: blue
+  #   accent: orange
   font:
     text: IBM Plex Sans
     code: SFMono-Regular,Consolas,Menlo,monospace
@@ -48,17 +57,15 @@ plugins:
   - search
 
 extra_javascript:
-  - _assets/js/mermaid-8.5.0.min.js
+  # - _assets/js/mermaid-8.5.0.min.js
 extra_css:
-  - _assets/css/mermaid.css
-  - _assets/css/code.css
-  - _assets/css/global.css
+  - stylesheets/extra.css
 
 # Extras
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/sortlist/infrastructure'
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github-alt
+#       link: 'https://github.com/sortlist/infrastructure'
 
 
 
