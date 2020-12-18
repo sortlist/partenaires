@@ -4,9 +4,9 @@ Vous trouverez ici la documentation technique pour lancer et faire un succès de
 
 ## Les sections principales
 
-* `Mise en route` - Les étapes pour activer votre partenariat.
-* `Nos call-to-actions` - Les contenus cliquables que vous pourrez intégrer à votre site.
-* `Service de création de contenu` - Comment obtenir du contenu unique sur votre niche.
+* **Mise en route** - [Que faire une fois votre demande de partenariat envoyée](https://sortlist.github.io/partners/start/request_sent/)
+* **Nos call-to-actions** - Notre [widget](https://sortlist.github.io/partners/cta/widget), nos [bannières](https://sortlist.github.io/partners/cta/banners) et les [liens](https://sortlist.github.io/partners/cta/link) que vous pourrez intégrer à votre site ou vos communications.
+* **Service de création de contenu** - Comment obtenir du contenu unique sur votre niche.
 
 ## Comment commencer ?
 

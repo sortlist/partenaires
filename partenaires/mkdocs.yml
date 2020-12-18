@@ -19,8 +19,9 @@ nav:
   - Mise en route:
     - Demande effectuée: start/request_sent.md
   - Call-to-actions:
-    - Bannières: cta/banners.md
     - Widget: cta/widget.md
+    - Bannières: cta/banners.md
+    - Lien: cta/link.md
   - Création de contenu: content_creation.md
 
   # - Terragrunt: terragrunt.md
