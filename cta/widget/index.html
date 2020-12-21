@@ -461,21 +461,44 @@
 
 <p>Le <code>&lt;script&gt;</code> peut être placé, une fois seulement, à la fin du <code>&lt;body&gt;</code> afin de ne pas bloquer le chargement de la page. Ce script chargera seulement le <code>&lt;button&gt;</code> et une simple fonction javascript, donc les performances de votre site ne seront pas impactées au chargement.</p>
 <h2 id="parametres-disponibles">Paramètres disponibles:<a class="headerlink" href="#parametres-disponibles" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>source</code> (type: URL, obligatoire, encodé comme URL, défaut: undefined-third-party)
-<br>
-<em>Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm.</em></li>
-<li><code>text</code> (type: text, obligatoire, encodé comme URL, défaut: Find agencies)
-<br>
-<em>Sera utilisé comme texte sur le bouton.</em></li>
-<li><code>domain</code> ((type: TLD, obligatoire, défaut: com))
-<br>
-<em>Un des domaines disponibles sur Sortlist (com, fr, be, de, nl, it, etc.). Sera utilisé comme domaine pour l’iframe et définira donc la langue du briefing.</em></li>
-<li><code>country</code> (type: Iso31661, hautement recommandé, défaut: rien)
-<br>
-<em>Un des codes pays disponibles : (FR, BE, DE).
-Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions.</em></li>
-</ul>
+<p>Comme vous pouvez le voir, dans le lien <code>src=</code> du script de l'étape 3, il y a un paramètre que vous devez modifier et d'autres qui aideront vos conversions.</p>
+<p><code>https://www.sortlist.com/api/briefing-embed?source=https%3A%2F%2Fyourwebsite.fr&amp;text=Trouver%20des%20agences&amp;domain=fr&amp;expertiseId=58&amp;country=FR</code></p>
+<table>
+<thead>
+<tr>
+<th align="left">Paramètre</th>
+<th align="left">Type</th>
+<th align="left">Obligatoire</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>source</code></td>
+<td align="left">URL encodée</td>
+<td align="left">Obligatoire</td>
+<td align="left">L'URL <a href="https://www.convertstring.com/fr/EncodeDecode/UrlEncode">encodée</a> de votre site. Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm.</td>
+</tr>
+<tr>
+<td align="left"><code>text</code></td>
+<td align="left">Texte</td>
+<td align="left">Obligatoire</td>
+<td align="left">Le texte du bouton, défaut est <code>Trouver des agences</code></td>
+</tr>
+<tr>
+<td align="left"><code>domain</code></td>
+<td align="left">TLD</td>
+<td align="left">Obligatoire</td>
+<td align="left">Le domaine Sortlist vers lequel vous désirez pointer. On suggère par défaut d'utiliser <code>fr</code></td>
+</tr>
+<tr>
+<td align="left"><code>country</code></td>
+<td align="left">Iso31661</td>
+<td align="left">Optionnel</td>
+<td align="left">Un des codes pays disponibles : (FR, BE, DE). Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="des-questions">Des questions?<a class="headerlink" href="#des-questions" title="Permanent link">&para;</a></h2>
 <p>Contactez <strong>Olivier Danniau</strong>, notre responsable partenariats France au <a href="tel:+33756936456">+33 (0) 7 56 93 64 56</a></p>
                 
