@@ -20,7 +20,7 @@ Le `<script>` peut être placé, une fois seulement, à la fin du `<body>` afin 
 
 ## Paramètres disponibles:
 
-Comme vous pouvez le voir, dans le lien `src=` du script de l'étape 3, il y a un paramètre que vous devez modifier et d'autres qui aideront vos conversions.
+Comme vous pouvez le voir, dans le lien `src=` du script de l'étape 3, il y a un paramètre que **vous devez modifier** et d'autres qui aideront vos conversions.
 
 `https://www.sortlist.com/api/briefing-embed?source=https%3A%2F%2Fyourwebsite.fr&text=Trouver%20des%20agences&domain=fr&expertiseId=58&country=FR`
 
