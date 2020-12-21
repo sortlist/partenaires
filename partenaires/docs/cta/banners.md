@@ -2,7 +2,7 @@
 
 Nous vous aidons à mettre un place un visuel au format conforme avec votre interface
 
-![les-visuels](/images/banners-overview.png){: loading=lazy }
+![les-visuels](https://sortlist.github.io/partners/images/banners-overview.PNG){: loading=lazy }
 
 * [Gif - Proposition](https://www.canva.com/design/DAEQ9-vfeSI/uz2S20W__mdZVhimU-eWKg/view?utm_content=DAEQ9-vfeSI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
 * [Gif - Exemples](https://www.canva.com/design/DAEQ990dNBg/VOfp2y09MwavHckz46pr_w/view?utm_content=DAEQ990dNBg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
