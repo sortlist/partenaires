@@ -20,19 +20,17 @@ Le `<script>` peut être placé, une fois seulement, à la fin du `<body>` afin 
 
 ## Paramètres disponibles:
 
-* `source` (type: URL, obligatoire, encodé comme URL, défaut: undefined-third-party)
-<br>
-_Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm._
-* `text` (type: text, obligatoire, encodé comme URL, défaut: Find agencies)
-<br>
-_Sera utilisé comme texte sur le bouton._
-* `domain ` ((type: TLD, obligatoire, défaut: com))
-<br>
-_Un des domaines disponibles sur Sortlist (com, fr, be, de, nl, it, etc.). Sera utilisé comme domaine pour l’iframe et définira donc la langue du briefing._
-* `country ` (type: Iso31661, hautement recommandé, défaut: rien)
-<br>
-_Un des codes pays disponibles : (FR, BE, DE).
-Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions._
+Comme vous pouvez le voir, dans le lien `src=` du script de l'étape 3, il y a un paramètre que vous devez modifier et d'autres qui aideront vos conversions.
+
+`https://www.sortlist.com/api/briefing-embed?source=https%3A%2F%2Fyourwebsite.fr&text=Trouver%20des%20agences&domain=fr&expertiseId=58&country=FR`
+
+| Paramètre   | Type              | Obligatoire  | Description  | 
+| :---------- | :---------------- | :--------    | :---- | 
+| `source`    | URL encodée | Obligatoire    | L'URL [encodée](https://www.convertstring.com/fr/EncodeDecode/UrlEncode) de votre site. Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm. | 
+| `text`      | Texte      | Obligatoire | Le texte du bouton, défaut est `Trouver des agences` |
+| `domain`    | TLD      | Obligatoire | Le domaine Sortlist vers lequel vous désirez pointer. On suggère par défaut d'utiliser `fr` |
+| `country`    | Iso31661      | Optionnel | Un des codes pays disponibles : (FR, BE, DE). Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions.  |
+
 
 ## Des questions?
 
