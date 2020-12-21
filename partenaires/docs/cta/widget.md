@@ -24,12 +24,12 @@ Comme vous pouvez le voir, dans le lien `src=` du script de l'étape 3, il y a u
 
 `https://www.sortlist.com/api/briefing-embed?source=https%3A%2F%2Fyourwebsite.fr&text=Trouver%20des%20agences&domain=fr&expertiseId=58&country=FR`
 
-| Paramètre   | Type              | Obligatoire  | Description  | 
+| Paramètre   | Type              | Modification  | Description  | 
 | :---------- | :---------------- | :--------    | :---- | 
-| `source`    | URL encodée | Obligatoire    | L'URL [encodée](https://www.convertstring.com/fr/EncodeDecode/UrlEncode) de votre site. Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm. | 
-| `text`      | Texte      | Obligatoire | Le texte du bouton, défaut est `Trouver des agences` |
-| `domain`    | TLD      | Obligatoire | Le domaine Sortlist vers lequel vous désirez pointer. On suggère par défaut d'utiliser `fr` |
-| `country`    | Iso31661      | Optionnel | Un des codes pays disponibles : (FR, BE, DE). Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions.  |
+| `source`    | URL encodée | **Obligatoire** | L'URL [encodée](https://www.convertstring.com/fr/EncodeDecode/UrlEncode) de votre site. Sera utilisé pour le tracking et peut contenir le query param d’une plateforme d’affiliation ou des utm. | 
+| `text`      | Texte      | Optionelle | Le texte du bouton, défaut est `Trouver des agences` |
+| `domain`    | TLD      | Optionelle | Le domaine Sortlist vers lequel vous désirez pointer. On suggère par défaut d'utiliser `fr` |
+| `country`    | Iso31661      | Optionelle | Un des codes pays disponibles : (FR, BE, DE). Sera utilisé pour préremplir la question à propos de la localisation et améliorera vos conversions.  |
 
 
 ## Des questions?
