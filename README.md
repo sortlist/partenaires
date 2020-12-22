@@ -1,2 +1,2 @@
 # partenaires
-Documentations for partners in **French**
+**French** documentation for partners
