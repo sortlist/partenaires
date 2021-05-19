@@ -22,6 +22,7 @@ nav:
     - Widget: cta/widget.md
     - Bannières: cta/banners.md
     - Lien: cta/link.md
+    - Liste intégrée d'agences: cta/embed-agencies-list.md
   - Création de contenu: content_creation.md
 
   # - Terragrunt: terragrunt.md
