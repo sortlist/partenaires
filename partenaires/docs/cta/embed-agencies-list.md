@@ -20,7 +20,7 @@ Comme vous pouvez le remarquer, il y a différents paramètres à utiliser :
 
 ## 3. Exemple de la liste ci-dessous:
 
-![Liste d'agences](https://sortlist.github.io/partenaires/docs/cta/Embedded-agencies-list.PNG){: loading=lazy }
+![Liste d'agences](img/embedded-agencies-list.png){: loading=lazy }
 
 ## Des questions?
 
