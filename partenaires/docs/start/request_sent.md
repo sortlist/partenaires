@@ -3,7 +3,7 @@
 ## Que faire une fois votre demande envoyée ?
 
 Vous nous avez envoyé une demande ? Super on vous reviendra dans les 48 heures pour en discuter.
-[Faites-là ici](https://pages.sortlist.com/sortlist-affiliation-program) si ce n'est pas encore fait.
+[Faites-là ici](https://pages.sortlist.com/sortlist-programme-affiliation) si ce n'est pas encore fait.
 
 Nous vous conseillons de déjà jeter un oeil à nos options pour insérer un de nos Call-to-actions:
 
