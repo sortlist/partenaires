@@ -10,7 +10,7 @@ Vous trouverez ici la documentation technique pour lancer et faire un succès de
 
 ## Comment commencer ?
 
-Avant toute chose, veuillez nous [soumettre une demande de partenariat](https://sortlist1.typeform.com/to/AH6Orh8N).
+Avant toute chose, veuillez nous [soumettre une demande de partenariat](https://pages.sortlist.com/sortlist-programme-affiliation).
 
 ## Des questions?
 
